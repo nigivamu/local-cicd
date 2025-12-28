@@ -122,3 +122,15 @@ Edita `example-repo/.gitea/workflows/deploy.yml` para:
 - Agregar más recursos AWS
 - Cambiar configuración de RDS/EC2
 - Agregar pasos de build/test antes del deploy
+
+## Instalación de awslocal en ubuntu moderno
+
+Para instalar aws local ejecutar los comandos.
+Localstack ya debe estar en ejecución.
+Por defecto se crea un s3 para hacer la validación de la correcta instlación de awslocal
+
+```bash
+chmod +x install_awslocal.sh
+./install_awslocal.sh
+
+```
